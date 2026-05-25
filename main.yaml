@@ -10,4 +10,9 @@
       group:
         name: dev
         state: present
+    
+    - name: add package
+      yum:
+        name: httpd
+        state: present
 ...
